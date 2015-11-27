@@ -1,2 +1,36 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron {
+	background-color: #fdf8e1;
+	border: 1px solid #f2cb3b;
+	h2 {
+		color: #c41200;
+		font-weight: bold;
+	}
+}
+
+.navbar-default {
+	background-color: #B30804;
+	.navbar-nav > li > a {
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.navbar-brand {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Arial';
+		text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+		-webkit-text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+		-moz-text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+		-o-text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+		-ms-text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+		text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff 1px -1px 0 #fff, -1px 1px 0 #fff;
+	}
+}
+
+.container {
+	padding: 10px 120px;
+}
