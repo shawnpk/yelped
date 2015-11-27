@@ -9,6 +9,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'awesome_print', '~> 1.6', '>= 1.6.1'
+gem 'pry-rails', '~> 0.3.4'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -20,5 +22,6 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem "better_errors"
+  gem 'quiet_assets'
 end
 
