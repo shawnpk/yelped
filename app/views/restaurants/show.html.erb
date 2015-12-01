@@ -23,6 +23,17 @@
 			  <%= link_to @restaurant.website, "http://" + @restaurant.website %>
 			</p>
 			<%= link_to 'Write A Review', new_restaurant_review_path(@restaurant), class: 'btn btn-primary' %>
+
+			<br>
+			<br>
+
+			<iframe
+				width="250"
+				height="250"
+				frameborder="0" 
+				style="border:0"
+				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAv8CzI6D_O3031FIZ2K1JH6kt50dN5yc0&q=<%= @restaurant.address.parameterize %>&zoom=14">
+			</iframe>
 	</div>
 
 	<div class="col-md-8">
