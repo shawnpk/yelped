@@ -10,7 +10,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'awesome_print', '~> 1.6', '>= 1.6.1'
-gem 'pry-rails', '~> 0.3.4'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'carrierwave'
 gem "fog"
