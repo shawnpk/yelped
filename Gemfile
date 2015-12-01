@@ -16,6 +16,7 @@ gem "fog"
 gem "figaro"
 gem "mini_magick"
 gem 'devise'
+gem 'searchkick'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

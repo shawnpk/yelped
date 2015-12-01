@@ -34,6 +34,9 @@
 				style="border:0"
 				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAv8CzI6D_O3031FIZ2K1JH6kt50dN5yc0&q=<%= @restaurant.address.parameterize %>&zoom=14">
 			</iframe>
+
+			<%= link_to 'Edit', edit_restaurant_path(@restaurant), class: 'btn btn-link' %> |
+			<%= link_to 'Back', restaurants_path, class: 'btn btn-link' %>
 	</div>
 
 	<div class="col-md-8">
@@ -74,8 +77,6 @@
 			</table>
 		<% end %>
 
-		<%= link_to 'Edit', edit_restaurant_path(@restaurant), class: 'btn btn-link' %> |
-		<%= link_to 'Back', restaurants_path, class: 'btn btn-link' %>
 	</div>
 </div>
 
